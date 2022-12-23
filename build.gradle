@@ -1,0 +1,17 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm' version '1.5.10'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlin:kotlin-stdlib"
+    implementation('no.tornado:tornadofx:1.7.19')
+    implementation group: 'org.openjfx', name: 'javafx-controls', version: '19'
+
+}
